@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// Admin-LTE
+@import '~admin-lte/dist/css/adminlte.css';
+// @import '~admin-lte/dist/css/adminlte.min.css';
+
+.router-link-exact-active {
+  color: #fff !important;
+  background-color: #1d8ce9;
+}
+.fa-icon {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.mandatory::before {
+  content: "\f005";
+  color: $red;
+}
+.no::before {
+  content: "\f056";
+  color: $red;
+}
+.yes::before {
+  content: "\f055";
+  color: $green;
+}
