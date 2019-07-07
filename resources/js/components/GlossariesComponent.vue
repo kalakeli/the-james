@@ -23,7 +23,8 @@
                             <div class="card-body table-responsive p-0">
                               <table class="table table-hover">
                                 <tbody><tr>
-                                  <th>ID</th>
+                                  <!-- <th>ID</th> -->
+                                  <th><i class="fas fa-eye" title="is the term shown on the website?"></i></th> <!-- is it visible online? -->
                                   <th>Term</th>
                                   <th>Explanation</th>
                                   <th>Link</th>
@@ -32,7 +33,9 @@
                                   <th>&nbsp;</th>
                                 </tr>
                                 <tr v-for="item in glossaryTerms" :key="item.id">
-                                  <td>{{ item.id }}</td>
+                                  <!-- <td>{{ item.id }}</td> -->
+                                  <td v-if="item.flagShow===1"><span class="fa-icon yes"></span> </td>
+                                  <td v-else><span class="fa-icon no"></span> </td>
                                   <td>{{ item.term }}</td>
                                   <td>{{ item.explanation }}</td>
                                   <td>{{ item.furtherInfoLink }}</td>

@@ -65,11 +65,13 @@ let routes = [
   { path: '/breweries', name:'Breweries', component: require('./components/BreweriesComponent.vue').default },
   { path: '/brewery', name:'AddBrewery', component: require('./components/BreweryComponent.vue').default },
   { path: '/brewery/:id', name:'UpdateBrewery', component: require('./components/BreweryComponent.vue').default },
+  { path: '/events', name:'Events', component: require('./components/EventsComponent.vue').default },
+  { path: '/event', name:'AddEvent', component: require('./components/EventComponent.vue').default },
+  { path: '/event/:id', name:'UpdateEvent', component: require('./components/EventComponent.vue').default },
   { path: '/glossaries', name:'Glossaries', component: require('./components/GlossariesComponent.vue').default },
   { path: '/glossary', name:'AddGlossaryItem', component: require('./components/GlossaryComponent.vue').default },
   { path: '/glossary/:id', name:'UpdateGlossaryItem', component: require('./components/GlossaryComponent.vue').default },
-  { path: '/spirits', name:'Spirits', component: require('./components/SpiritsComponent.vue').default },
-  { path: '/events', name:'Events', component: require('./components/EventsComponent.vue').default }
+  { path: '/spirits', name:'Spirits', component: require('./components/SpiritsComponent.vue').default }
 ]
 
 // 3. Create the router instance and pass the `routes` option

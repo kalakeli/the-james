@@ -6,7 +6,14 @@
                     <div class="card-header">Wines & Spirits Component</div>
 
                     <div class="card-body">
-                        I'm an example component.
+                      <h2>Wines / Spirits haben</h2>
+                        <ul>
+                          <li>Namen</li>
+                          <li>Getränketyp (Gin, Whiskey, Rotwein, Weißwein, ... was noch?)</li>
+                          <li> - was soll hier stehen!? selbe Infos wie bei Bieren? also Alkohol, Geschmack,...? Das macht bei Gin oder Whiskey vielleicht Sinn, soll bei Gin zum Beispiel auch der Tonic genannt werden?  - </li>
+                          <li>flagShow (müssen nicht online sein, selbst wenn das Datum stimmt)</li>
+                          <li>timestamps</li>
+                        </ul>
                     </div>
                 </div>
             </div>
