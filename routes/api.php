@@ -21,5 +21,7 @@ Route::apiResources([
     'beerstyle' => 'API\BeerStyleController',
     'brewery' => 'API\BreweryController',
     'beer' => 'API\BeerController',
-    'glossary' => 'API\GlossaryController'
+    'event' => 'API\EventController',
+    'glossary' => 'API\GlossaryController',
+    'spirit' => 'API\SpiritController'
 ]);

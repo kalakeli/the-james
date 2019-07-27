@@ -71,7 +71,9 @@ let routes = [
   { path: '/glossaries', name:'Glossaries', component: require('./components/GlossariesComponent.vue').default },
   { path: '/glossary', name:'AddGlossaryItem', component: require('./components/GlossaryComponent.vue').default },
   { path: '/glossary/:id', name:'UpdateGlossaryItem', component: require('./components/GlossaryComponent.vue').default },
-  { path: '/spirits', name:'Spirits', component: require('./components/SpiritsComponent.vue').default }
+  { path: '/spirits', name:'Spirits', component: require('./components/SpiritsComponent.vue').default },
+  { path: '/spirit', name:'AddSpirit', component: require('./components/SpiritComponent.vue').default },
+  { path: '/spirit/:id', name:'EditSpirit', component: require('./components/SpiritComponent.vue').default }
 ]
 
 // 3. Create the router instance and pass the `routes` option
